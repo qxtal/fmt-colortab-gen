@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 __author__ = "Quartz Xtal <quartz@xtal.sh>"
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 __license__ = "MIT"
 
 import sys
@@ -13,6 +13,10 @@ HTML_HEADER = """<!DOCTYPE html>
 <head>
 <title>fmt Color Reference Table</title>
 <style>td { font-family: monospace }</style>
+<meta name="description" content="A visual reference guide for the colors provided by fmt's color library.">
+<meta property="og:title" content="fmt Color Reference Table">
+<meta property="og:description" content="A visual reference guide for the colors provided by fmt's color library." />
+<meta property="og:type" content="website">
 </head>
 <body>
 

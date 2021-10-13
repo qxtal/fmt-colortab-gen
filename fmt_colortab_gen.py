@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 __author__ = "Quartz Xtal <quartz@xtal.sh>"
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 __license__ = "MIT"
 
 import sys
@@ -36,7 +36,7 @@ HTML_TABLE_ROW_TEMPLATE = """<tr> <!-- {{INDEX}}: {{NAME}} -->
 <td>{{NAME}}</td>
 <td>{{HEX}}</td>
 <td>{{RGB}}</td>
-<td style="background-color:{{HTML_HEX}}"></td>
+<td style="background-color:{{HTML_HEX}} !important"></td>
 </tr>
 
 """

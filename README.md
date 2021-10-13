@@ -1,5 +1,5 @@
 # fmt-colortab-gen
-Document generator script for the 'fmt Color Reference Table'.
+Document generator script for the 'fmt Color Reference Table'. [Click here to see the color reference table itself.](https://fmtcolors.xtal.sh)
 
 This script generates a visual reference guide for the colors provided by [fmt](https://fmt.dev)'s color library in an HTML document. The values are extracted directly from `include/fmt/color.h` via the project's GitHub repository.
 
